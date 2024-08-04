@@ -1,5 +1,6 @@
 import { useRoutes } from "react-router-dom";
 import MainLayout from "./components/layouts/MainLayout";
+import Esheba from "./pages/esheba/Esheba";
 
 const Routes = () => {
   return useRoutes([
@@ -16,6 +17,10 @@ const Routes = () => {
           element: <div>About</div>,
         },
       ],
+    },
+    {
+      path: "/esheba",
+      element: <Esheba />,
     },
   ]);
 };
