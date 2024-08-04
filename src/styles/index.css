@@ -8,3 +8,13 @@
 
 .favorite {
 }
+
+.overlap-images {
+  display: flex;
+}
+.overlap-images img {
+  margin-left: -20px;
+}
+.overlap-images img:first-child {
+  margin-left: 0;
+}
