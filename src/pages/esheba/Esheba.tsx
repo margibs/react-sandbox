@@ -72,19 +72,19 @@ const Esheba = () => {
 
         {/* Blue section */}
         <div className="bg-[#0360D9]">
-          <div className="w-[1440px] mx-auto flex w-full py-4">
-            <div className="flex flex-1 items-center justify-between divide-x divide-blue-100">
-              <span className="flex-1 text-center">
-                <p>24/7</p>
-                <small>Online Support</small>
+          <div className="w-[1440px] mx-auto flex py-4">
+            <div className="flex items-center justify-between divide-x divide-blue-100">
+              <span className="flex-1 text-center pr-10">
+                <p className="text-6xl font-bold text-white">24/7</p>
+                <small className="text-white">Online Support</small>
               </span>
-              <span className="flex-1 text-center">
-                <p>100+</p>
-                <small>Doctors</small>
+              <span className="flex-1 text-center px-10">
+                <p className="text-6xl font-bold text-white">100+</p>
+                <small className="text-white">Doctors</small>
               </span>
-              <span className="flex-1 text-center">
-                <p>1M+</p>
-                <small>Active Patients</small>
+              <span className="flex-1 text-center pl-10">
+                <p className="text-6xl font-bold text-white">1M+</p>
+                <small className="text-white">Active Patients</small>
               </span>
             </div>
             <div className="flex-1"></div>
@@ -101,7 +101,11 @@ const Esheba = () => {
           </h1>
           <div className="flex w-full justify-center gap-4">
             <div className="flex-1 border border-[#021526] rounded-xl p-4">
-              <img className="bg-[#E6F5FC]" src={covid19} alt="" />
+              <img
+                className="bg-[#E6F5FC] p-5 rounded-full"
+                src={covid19}
+                alt=""
+              />
               <p>Covid-19 Test</p>
               <small>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sem
@@ -109,7 +113,11 @@ const Esheba = () => {
               </small>
             </div>
             <div className="flex-1 border border-[#021526] rounded-xl p-4">
-              <img src={heartLungs} alt="" />
+              <img
+                className="bg-[#E6F5FC] p-5 rounded-full"
+                src={heartLungs}
+                alt=""
+              />
               <p>Heart Lungs</p>
               <small>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sem
@@ -117,7 +125,11 @@ const Esheba = () => {
               </small>
             </div>
             <div className="flex-1 border border-[#021526] rounded-xl p-4">
-              <img src={supplement} alt="" />
+              <img
+                className="bg-[#E6F5FC] p-5 rounded-full"
+                src={supplement}
+                alt=""
+              />
               <p>Supplement</p>
               <small>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sem
@@ -125,7 +137,11 @@ const Esheba = () => {
               </small>
             </div>
             <div className="flex-1 border border-[#021526] rounded-xl p-4">
-              <img src={mentalHealth} alt="" />
+              <img
+                className="bg-[#E6F5FC] p-5 rounded-full"
+                src={mentalHealth}
+                alt=""
+              />
               <p>Mental Health</p>
               <small>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sem
